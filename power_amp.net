@@ -1,0 +1,484 @@
+# EESchema Netlist Version 1.1 created  2013/11/21 1:49:41
+(
+ ( /5279A8E5 $noname  C1 C {Lib=C}
+  (    1 N-000005 )
+  (    2 /IN )
+ )
+ ( /5282585F $noname  P6 CONNECTOR {Lib=CONNECTOR}
+  (    1 /OUT )
+ )
+ ( /52825816 $noname  P5 CONNECTOR {Lib=CONNECTOR}
+  (    1 GND )
+ )
+ ( /52825809 $noname  P4 CONNECTOR {Lib=CONNECTOR}
+  (    1 GND )
+ )
+ ( /5280150D $noname  P3 CONNECTOR {Lib=CONNECTOR}
+  (    1 /IN )
+ )
+ ( /528014B0 $noname  P1 CONNECTOR {Lib=CONNECTOR}
+  (    1 /+12V )
+ )
+ ( /52801483 $noname  P2 CONNECTOR {Lib=CONNECTOR}
+  (    1 /-12V )
+ )
+ ( /52801100 $noname  C5 C {Lib=C}
+  (    1 /OUT )
+  (    2 N-000025 )
+ )
+ ( /528010FA $noname  R19 R {Lib=R}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /528010C5 $noname  R18 R {Lib=R}
+  (    1 /OUT )
+  (    2 N-000006 )
+ )
+ ( /528010A4 $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000006 )
+  (    2 /OUT )
+ )
+ ( /527EE5E7 $noname  R3 VR3 {Lib=VR3}
+  (    1 N-000003 )
+  (    2 N-000024 )
+  (    3 N-000014 )
+ )
+ ( /527D06EA $noname  R6 R {Lib=R}
+  (    1 /+12V )
+  (    2 N-000004 )
+ )
+ ( /5279A894 $noname  R1 R {Lib=R}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /5279A84A $noname  R7 R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000023 )
+ )
+ ( /5279A78B $noname  R17 R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000009 )
+ )
+ ( /5279A757 $noname  R16 R {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000006 )
+ )
+ ( /5279A74B TO92-CBE  Q10 MPSA92 {Lib=MPSA92}
+  (    B N-000022 )
+  (    C /-12V )
+  (    E N-000009 )
+ )
+ ( /5279A738 TO92-CBE  Q9 MPSA42 {Lib=MPSA42}
+  (    B N-000007 )
+  (    C /+12V )
+  (    E N-000008 )
+ )
+ ( /5279A727 $noname  R15 R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000022 )
+ )
+ ( /5279A711 $noname  R14 R {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /5279A6FE TO92-CBE  Q8 MPSA92 {Lib=MPSA92}
+  (    B N-000011 )
+  (    C /-12V )
+  (    E N-000022 )
+ )
+ ( /5279A6F2 TO92-CBE  Q7 MPSA42 {Lib=MPSA42}
+  (    B N-000020 )
+  (    C /+12V )
+  (    E N-000007 )
+ )
+ ( /5279A6DB $noname  R13 R {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000021 )
+ )
+ ( /5279A6D0 $noname  R12 R {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000016 )
+ )
+ ( /5279A6A6 $noname  C4 C {Lib=C}
+  (    1 /+12V )
+  (    2 N-000019 )
+ )
+ ( /5279A69F $noname  R10 R {Lib=R}
+  (    1 /+12V )
+  (    2 N-000019 )
+ )
+ ( /5279A67B $noname  C2 C {Lib=C}
+  (    1 N-000016 )
+  (    2 N-000013 )
+ )
+ ( /5279A629 $noname  R11 R {Lib=R}
+  (    1 N-000018 )
+  (    2 /-12V )
+ )
+ ( /5279A582 TO92-CBE  Q6 MPSA42 {Lib=MPSA42}
+  (    B N-000004 )
+  (    C N-000021 )
+  (    E N-000018 )
+ )
+ ( /5279A4F4 $noname  R9 R {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000021 )
+ )
+ ( /5279A4ED $noname  R8 R {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000017 )
+ )
+ ( /5279A4E8 TO92-CBE  Q5 MPSA42 {Lib=MPSA42}
+  (    B N-000017 )
+  (    C N-000016 )
+  (    E N-000021 )
+ )
+ ( /5279A4C6 TO92-CBE  Q4 MPSA92 {Lib=MPSA92}
+  (    B N-000013 )
+  (    C N-000016 )
+  (    E N-000019 )
+ )
+ ( /5279A4A8 $noname  R5 R {Lib=R}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /5279A493 $noname  C3 C {Lib=C}
+  (    1 N-000004 )
+  (    2 /-12V )
+ )
+ ( /5279A41C $noname  D1 ZENER {Lib=ZENER}
+  (    1 /-12V )
+  (    2 N-000004 )
+ )
+ ( /5279A3A4 $noname  R2 R {Lib=R}
+  (    1 /+12V )
+  (    2 N-000013 )
+ )
+ ( /526F41D3 $noname  R4 R {Lib=R}
+  (    1 N-000015 )
+  (    2 /-12V )
+ )
+ ( /526F41C6 TO92-CBE  Q2 MPSA42 {Lib=MPSA42}
+  (    B N-000004 )
+  (    C N-000024 )
+  (    E N-000015 )
+ )
+ ( /526F412F TO92-CBE  Q1 MPSA42 {Lib=MPSA42}
+  (    B N-000005 )
+  (    C N-000013 )
+  (    E N-000014 )
+ )
+ ( /516F3F2F TO92-CBE  Q3 MPSA42 {Lib=MPSA42}
+  (    B N-000023 )
+  (    C /+12V )
+  (    E N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Q10
+ TO92-CBE
+$endlist
+$component Q9
+ TO92-CBE
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Q8
+ TO92-CBE
+$endlist
+$component Q7
+ TO92-CBE
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Q6
+ TO92-CBE
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Q5
+ TO92-CBE
+$endlist
+$component Q4
+ TO92-CBE
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component Q2
+ TO92-CBE
+$endlist
+$component Q1
+ TO92-CBE
+$endlist
+$component Q3
+ TO92-CBE
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/IN" "IN"
+ C1 2
+ P3 1
+Net 2 "GND" "GND"
+ P4 1
+ R5 2
+ P5 1
+ R1 2
+ R19 2
+Net 3 "" ""
+ Q3 E
+ R3 1
+Net 4 "" ""
+ Q2 B
+ D1 2
+ C3 1
+ Q6 B
+ R6 2
+Net 5 "" ""
+ Q1 B
+ C1 1
+ R1 1
+Net 6 "" ""
+ R18 2
+ L1 1
+ R7 1
+ R17 1
+ R16 2
+ R15 1
+ R14 2
+Net 7 "" ""
+ Q7 E
+ R14 1
+ Q9 B
+Net 8 "" ""
+ Q9 E
+ R16 1
+Net 9 "" ""
+ Q10 E
+ R17 2
+Net 10 "/-12V" "-12V"
+ R11 2
+ Q8 C
+ P2 1
+ R4 2
+ D1 1
+ Q10 C
+ C3 2
+Net 11 "" ""
+ R13 1
+ Q8 B
+Net 12 "/+12V" "+12V"
+ C4 1
+ Q7 C
+ R6 1
+ Q3 C
+ P1 1
+ R2 1
+ R10 1
+ Q9 C
+Net 13 "" ""
+ Q1 C
+ C2 2
+ R2 2
+ Q4 B
+Net 14 "" ""
+ Q1 E
+ R3 3
+Net 15 "" ""
+ Q2 E
+ R4 1
+Net 16 "" ""
+ Q5 C
+ C2 1
+ R8 1
+ R12 2
+ Q4 C
+Net 17 "" ""
+ R8 2
+ R9 1
+ Q5 B
+Net 18 "" ""
+ R11 1
+ Q6 E
+Net 19 "" ""
+ Q4 E
+ C4 2
+ R10 2
+Net 20 "" ""
+ Q7 B
+ R12 1
+Net 21 "" ""
+ R13 2
+ Q6 C
+ R9 2
+ Q5 E
+Net 22 "" ""
+ Q8 E
+ Q10 B
+ R15 2
+Net 23 "" ""
+ R7 2
+ Q3 B
+ R5 1
+Net 24 "" ""
+ R3 2
+ Q2 C
+Net 25 "" ""
+ C5 2
+ R19 1
+Net 26 "/OUT" "OUT"
+ C5 1
+ R18 1
+ P6 1
+ L1 2
+}
+#End
